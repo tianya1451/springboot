@@ -1,0 +1,18 @@
+# Server settings  
+server:  
+    port: 80
+    address: 127.0.0.1
+# SPRING PROFILES  
+spring:         
+    # HTTP ENCODING  
+    http:  
+        encoding.charset: UTF-8  
+        encoding.enable: true  
+        encoding.force: true
+    # DATASOURCE  
+    datasource:  
+        driverClass: com.mysql.jdbc.Driver  
+        url: jdbc:mysql://127.0.0.1:3306/springboot?useUnicode=true&characterEncoding=utf-8  
+        username: root  
+        password: EDAW@8888         
+     
